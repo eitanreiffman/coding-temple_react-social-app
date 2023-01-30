@@ -10,17 +10,6 @@ export default function Posts() {
         .then(data => setPosts(data))
     }, [])
 
-    // const posts = [
-    //     {
-    //         title: "First Post",
-    //         body: "This is the first post."
-    //     },
-    //     {
-    //         title: "Second Post",
-    //         body: "This is the second post."
-    //     }
-    // ]
-
   return (
     <>
         <h1 className="text-center text-black my-3">Posts</h1>
